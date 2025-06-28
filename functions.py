@@ -2,7 +2,7 @@ import re
 
 # Define the function to normalize text
 def normalize_text(text):
-    """text cleaning just for whitespaces and amc sentence markers"""
+    """text cleaning just for whitespaces and sentence markers"""
     # remove <s>
     text = re.sub(r'<s>', '', text)
     text = re.sub(r'</s>', '', text)
